@@ -100,8 +100,54 @@ nav {
   a {
     text-decoration: none;
     color: $primary-color;
+    transition: all 0.3s ease-in-out;
   }
+
+  a:hover {
+    color: #696969;
+  }
+
 }
+
+#mobile-nav-wrapper {
+  width: 251px;
+  height: 100%;
+  background: #161616;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  box-shadow: inset 6px 0px 10px 0px black;
+  transform: translateX(250px);
+  transition: all 0.4s ease-in-out;
+
+  ul {
+    height: 100%;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+  }
+
+  li {
+    line-height: 40px;
+  }
+
+  a {
+    font-size: 18px;
+    color: #ccc;
+    text-decoration: none;
+  }
+
+}
+
+#mobile-nav-wrapper.slide-open {
+  transform: translateX(0px);
+  transition: all 0.4s ease-in-out;
+}
+
 
 @media (min-width: 769px) {
 
