@@ -134,15 +134,15 @@
   padding: 10px;
   border-radius: 20px;
   outline: none;
-  background: #1d1d1d;
-  border: 3px solid #1d1d1d;
+  background: rgba(0, 0, 0, 0);
+  border: 3px solid #f9f9f9;
   color: $text-background;
   transition: all 0.4s ease-in-out;
 }
 
 .services-btn:hover {
-  background: #666;
-  border: 3px solid #666;
+  background: #1d1d1d;
+  border: 3px solid #1d1d1d;
   transition: all 0.4s ease-in-out;
 }
 
