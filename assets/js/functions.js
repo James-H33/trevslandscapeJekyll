@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 
     $('#nav-icon span').toggleClass('open');
-    $('.services-intro-container, .services-message-container, .index-intro-container, .services-middle-container').toggleClass('slide-open');
+    $('.services-intro-container, .services-message-container, .index-intro-container, .services-middle-container, .services-contact-container, footer').toggleClass('slide-open');
 
     event.stopPropagation();
     event.preventDefault();
