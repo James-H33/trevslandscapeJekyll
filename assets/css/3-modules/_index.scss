@@ -1,11 +1,6 @@
-body {
-  transform: translateX(0);
-  transition: all 0.4s ease-in-out;
-}
-
 .slide-open {
   transform: translateX(-250px);
-  transition: all 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
 }
 
 .index-intro-container {
@@ -16,6 +11,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   font-family: $font-1;
+  transform: translateX(0);
+  transition: transform 0.4s ease-in-out;
 }
 
 .index-intro-display {
